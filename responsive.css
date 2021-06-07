@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+    section.home {
+        height: 75vh;
+        background-size: 93%;
+        background-position-y: 0;
+    }
+
+    section.home .container#home {
+        height: 50vh;
+        color: #f0f0f0;
+    }
+
+    section.home .container#home .illustration {
+        display: none;
+    }
+
+    section.home .container#home .text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    section.web-article .container .card .row.g-0 .col-md-4,
+    section.mobile-article .container .card .row.g-0 .col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.web-article .container .card .row.g-0 .col-md-8,
+    section.mobile-article .container .card .row.g-0 .col-md-8 {
+        text-align: center;
+    }
+
+    section.web-article .container .card .row .col-md-4 img,
+    section.mobile-article .container .card .row .col-md-4 img {
+        width: 250px;
+        height: 250px;
+    }
+
+    footer .container#soc-med a span {
+        font-size: 12px;
+    }
+
+    /**ARTICLE PAGE **/
+    section.article-page {
+        background-size: 80%;
+    }
+
+    section.article-page .container#html,
+    section.article-page .container#css,
+    section.article-page .container#js,
+    section.article-page .container#python,
+    section.article-page .container#swift,
+    section.article-page .container#kotlin {
+        flex-direction: column;
+    }
+
+    section.article-page .container#html .left,
+    section.article-page .container#css .left,
+    section.article-page .container#js .left,
+    section.article-page .container#python .left,
+    section.article-page .container#swift .left,
+    section.article-page .container#kotlin .left {
+        width: 100%;
+    }
+
+    section.article-page .container#html .right,
+    section.article-page .container#css .right,
+    section.article-page .container#js .right,
+    section.article-page .container#python .right,
+    section.article-page .container#swift .right,
+    section.article-page .container#kotlin .right {
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section.home {
+        background-size: 95%;
+    }
+
+    section.home .container#home {
+        height: 40vh;
+        color: #f0f0f0;
+    }
+
+    section.web-article .container .card .row.g-0 .col-md-4,
+    section.mobile-article .container .card .row.g-0 .col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.web-article .container .card .row.g-0 .col-md-8,
+    section.mobile-article .container .card .row.g-0 .col-md-8 {
+        text-align: center;
+    }
+
+    footer .container#soc-med a span {
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    section.login {
+        background-size: 70%;
+    }
+
+    section.login .container#login form {
+        padding: 10px 50px;
+    }
+
+    section.login .container#login form h3 {
+        font-size: 35px;
+    }
+
+    section.login .container#login form p {
+        font-size: 10px;
+    }
+
+    section.login .container#login form button {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
